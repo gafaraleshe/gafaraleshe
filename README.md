@@ -18,9 +18,9 @@
 I am a Computer Science student at the **University of Essex** (Expected 2028), currently predicting a First Class Honours. I blend strong technical engineering skills with creative direction. With experience building full-stack applications, REST APIs, and e-commerce platforms, I am passionate about crafting robust, scalable, and user-centric solutions.
 
 - 🔭 I’m currently working on **InvoiceFlow**, a production-grade freelance billing API.
-- 🚀 I’m the Founder & Creative Director at **Fronttoback Development** and **SHOTBYGAFAR**.
+- 🚀 I’m the Founder & Creative Director at **SHOTBYGAFAR**.
+- 💼 I’m a Web Developer & Creative Director at **Fronttoback Development**, where I helped scale social media channels to 70K+ followers and 10M+ views!
 - 💡 I love exploring the intersection of software engineering and creative media.
-- ⚡ Fun fact: I scaled social media channels to 70K+ followers and 10M+ views!
 
 ---
 
@@ -56,7 +56,6 @@ I am a Computer Science student at the **University of Essex** (Expected 2028), 
 |---------|-------------|------------|
 | **[InvoiceFlow API](https://github.com/gafaraleshe/InvoiceFlow)** | A freelance billing service with 15+ endpoints for invoice generation, client management, PDF export, and automated VAT calculation. Secured with OAuth 2.0 and Zod validation. | Node.js, Express, PostgreSQL, Drizzle ORM, Docker |
 | **[Gaffy Studios](https://github.com/gafaraleshe/gaffystudios)** | A custom portfolio and e-commerce platform integrating Lemon Squeezy API for digital product sales. Achieved 95+ Lighthouse score. | React, Next.js 15, TypeScript, Tailwind CSS v4 |
-| **[Employee Management System](https://github.com/gafaraleshe/EmployeeManagementSystem)** | A Python-based employee, client, and order management system featuring automated reports and invoice generation. | Python, SQLite |
 
 ---
 
@@ -67,10 +66,4 @@ I am a Computer Science student at the **University of Essex** (Expected 2028), 
 - **AWS Cloud Practitioner Essentials** - AWS (edX)
 - **CodeSignal Coding Assessment:** 500 / 600
 
----
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=gafaraleshe&show_icons=true&theme=radical" alt="Gafar's GitHub Stats" />
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=gafaraleshe&theme=radical" alt="Gafar's GitHub Streak" />
-</div>
