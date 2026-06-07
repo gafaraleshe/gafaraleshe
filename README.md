@@ -1,1 +1,1 @@
-Hi 👋🏾 - I'm Gafar . I blend strong technical engineering skills with creative direction. With experience building full-stack applications, REST APIs, and e-commerce platforms, I am passionate about crafting robust, scalable, and user-centric solutions. I’m currently working on **InvoiceFlow**, a production-grade freelance billing API.
+Hi 👋🏾 - I'm Gafar . I’m currently working on **InvoiceFlow**, a production-grade freelance billing API.
