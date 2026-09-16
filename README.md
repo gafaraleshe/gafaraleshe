@@ -1,7 +1,7 @@
 # 👋🏾 Hi, I'm Gafar 
 
 ## 🧠 About Me
-I’m a **software engineering student** 
+I’m a **computer science student** 
 I’m currently working on **HermiteLabs**
 
 ## 🚀 Projects
