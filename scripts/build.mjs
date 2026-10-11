@@ -671,7 +671,11 @@ const tmp = path.join(os.tmpdir(), `readme-build-${process.pid}`);
 await mkdir(tmp, { recursive: true });
 const activity = await fetchActivity();
 const avatar = await avatarMosaic();
-const browser = await chromium.launch();
+// Without hinting, glyphs keep their fractional advances, so the type sets
+// the same on any machine (CI runners snap letters to whole pixels).
+const browser = await chromium.launch({
+  args: ["--font-render-hinting=none"],
+});
 try {
   const files = {};
   for (const [name, layout] of Object.entries(LAYOUTS))
