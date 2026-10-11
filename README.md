@@ -1,22 +1,15 @@
-# 👋🏾 Hi, I'm Gafar 
+<!--
+  The top of gafaraleshe.com, drawn as images so it keeps the site's type and
+  colours. Each image has a dark and a light version in assets/; rebuild them
+  with `npm install && npm run build` after changing scripts/build.mjs.
+-->
 
-## 🧠 About Me
-- I’m a **computer science student** 
-- I’m currently working on **HermiteLabs**
+<p><a href="https://gafaraleshe.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/avatar.png"><img src="assets/light/avatar.png" width="58" height="51" alt="Photo of Gafar Aleshe"></picture></a><a href="https://gafaraleshe.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/intro.svg"><img src="assets/light/intro.svg" width="426" alt="Gafar Aleshe — Software engineer / @gafaraleshe"></picture></a><a href="https://instagram.com/gafaraleshe"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/instagram.svg"><img src="assets/light/instagram.svg" width="36" alt="Instagram"></picture></a><a href="https://x.com/GafarAleshe"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/x.svg"><img src="assets/light/x.svg" width="36" alt="X"></picture></a><a href="https://github.com/gafaraleshe"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/github.svg"><img src="assets/light/github.svg" width="36" alt="GitHub"></picture></a><a href="https://www.linkedin.com/in/gafaraleshe/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/linkedin.svg"><img src="assets/light/linkedin.svg" width="36" alt="LinkedIn"></picture></a><a href="mailto:contact@gafaraleshe.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/mail.svg"><img src="assets/light/mail.svg" width="36" alt="Email"></picture></a></p>
 
-## 🚀 Projects
-- **HermiteLabs** - building the tools that run a modern studio
+<p><a href="https://gafaraleshe.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/bio-1.svg"><img src="assets/light/bio-1.svg" width="664" alt="Hey, I'm Gafar — a software engineer based in Portsmouth, UK. I work across full-stack and frontend, building accessible, type-safe web apps with TypeScript, React, Next.js and Node.js."></picture></a></p>
 
-## 🛠️ Skills
-- **Languages:** TypeScript | JavaScript | Python
-- **Frontend:** React | Next.js | Tailwind CSS | TanStack Query | React Hook Form
-- **Backend:** Node.js | REST APIs | PostgreSQL | Drizzle ORM | Zod | Authentication | RBAC
-- **Tools:** Git, GitHub
+<p><a href="https://hermitelabs.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/bio-2.svg"><img src="assets/light/bio-2.svg" width="664" alt="I've shipped 25+ responsive sites and apps at FrontToBack, and I'm building Hermite Labs — software for creative businesses, starting with the HermiteFlow CRM and invoicing app."></picture></a></p>
 
-## 🎯 Interests
-- Software engineering
-- Frontend Engineering
+<p><a href="https://gafaraleshe.com/cinema"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/bio-3.svg"><img src="assets/light/bio-3.svg" width="664" alt="Away from the editor I shoot photo and film as SHOTBYGAFAR — that side lives in the cinema, with my LUTs and presets in the shop."></picture></a></p>
 
-## 📫 Connect
-- Email: contact@gafaraleshe.com
-- [LinkedIn](https://www.linkedin.com/in/gafaraleshe/)
+<p><a href="mailto:contact@gafaraleshe.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/email.svg"><img src="assets/light/email.svg" alt="Email me"></picture></a><a href="https://gafaraleshe.com/assets/Gafar_Aleshe_Resume.pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/resume.svg"><img src="assets/light/resume.svg" alt="Résumé"></picture></a><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/open-to-work.svg"><img src="assets/light/open-to-work.svg" alt="Open to work"></picture></p>
