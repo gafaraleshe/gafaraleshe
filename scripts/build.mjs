@@ -344,17 +344,6 @@ async function avatarMosaic() {
   return `<svg viewBox="0 0 ${size} ${size}" width="42" height="42">${body}</svg>`;
 }
 
-// Faint 32px graph-paper grid behind everything, centred like the site's.
-function gridLines(width, height) {
-  const lines = [];
-  const x0 = ((width / 2) % 32) - 0.5;
-  for (let x = x0; x < width; x += 32)
-    lines.push(`<rect x="${x}" y="0" width="1" height="${height}"/>`);
-  for (let y = 0; y < height; y += 32)
-    lines.push(`<rect x="0" y="${y}" width="${width}" height="1"/>`);
-  return `<svg class="grid" width="${width}" height="${height}" fill="rgba(255,255,255,0.045)">${lines.join("")}</svg>`;
-}
-
 // ── Page ──
 
 const font = (family, weight, pkg, file) =>
@@ -372,7 +361,6 @@ body{font-family:Geist,sans-serif;line-height:1.5;color:#ededed}
 a{color:inherit;text-decoration:none}
 svg{display:block;flex-shrink:0}
 .panel{position:relative;padding:${m ? "20px 16px" : "32px"};overflow:hidden}
-.grid{position:absolute;left:0;top:0}
 .mono{font-family:Mono,monospace}
 
 .site{position:relative;max-width:760px;margin:0 auto ${m ? 20 : 32}px;padding:0 4px;display:flex;align-items:center;justify-content:space-between}
@@ -504,7 +492,6 @@ async function page(layout, activity, avatar) {
 
   return `<!doctype html><html><head><meta charset="utf-8"><style>${CSS(m)}</style></head><body>
 <div class="panel" style="width:${layout.width}px">
-<div id="grid"></div>
 <div class="site"><span class="ga">GA</span><nav><span>Cinema</span><span>Shop</span><span class="pill">Links ↗</span></nav></div>
 <main class="card">
 <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
@@ -593,14 +580,9 @@ async function renderLayout(browser, name, layout, activity, avatar, tmp) {
   const height = Math.ceil(natural / 4) * 4;
   if (blocks.length !== STRIPS.length)
     throw new Error(`${blocks.length} blocks for ${STRIPS.length} strips`);
-  await tab.evaluate(
-    ([h, grid]) => {
-      const panel = document.querySelector(".panel");
-      panel.style.height = `${h}px`;
-      document.getElementById("grid").outerHTML = grid;
-    },
-    [height, gridLines(layout.width, height)],
-  );
+  await tab.evaluate((h) => {
+    document.querySelector(".panel").style.height = `${h}px`;
+  }, height);
 
   const cuts = [0];
   for (let i = 1; i < blocks.length; i++)
